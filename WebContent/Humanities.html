@@ -11,25 +11,24 @@
     <link rel="icon" type="image/ico" href="Images/favicon.ico">
   </head>
   <body>
-    <div class= "navbar">
-      <a href="./index.html">Home</a>
-      <a href="./About.html">About</a>
-      <a href="./Interests.html">Interests</a>
-      <div class = "dropdown">
-        <button class = "dropbtn">
-          Academics
-        </button>
-        <div class = "dropdownContent">
-          <a href="./CS.html">CS</a>
-          <a href="./Stem.html">STEM</a>
-          <a href="./Stw.html">STW</a>
-          <a href="./Math.html">Math</a>
-          <a href="./Humanities.html">Humanities</a>
-          <a href="./Language.html">Language</a>
-          <a href="./Physics.html">Physics</a>
-        </div>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <ul class="nav navbar-nav navbar-left">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./About.html">About</a></li>
+          <li><a href="./Interests.html">Interests</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" >Academics<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="./CS.html">CS</a></li>
+            <li><a href="./Stem.html">STEM</a></li>
+            <li><a href="./STW.html">STW</a></li>
+            <li><a href="./Math.html">Math</a></li>
+            <li class="active"><a href="./Humanities.html">Humanities</a></li>
+            <li><a href="./Language.html">Language</a></li>
+            <li><a href="./Physics.html">Physics</a></li>
+          </ul>
       </div>
-    </div>
+    </nav>
     <div id="boringImage">
       <div class="hero-text">
         <h1>Humanities</h1>
@@ -39,6 +38,11 @@
   <p>Humanities is a class focused on what it means to be human. We started off the year by
   creating skits based on Walden which we read for summer reading. My group and I made our skit based on a political debate
   between Thoreau and presidential candidate Andrew Yang. I hope to share more with you soon!</p>
+    </div>
+  <div class="row">
+    <div class="col-sm-6 center"><iframe src="./Docs/SatireAnalysis.pdf" width="95%" height="800px"></iframe></div>
+    <div class="col-sm-6 center"><iframe src="./Docs/WaldenSkit.pdf" width="95%" height="800px"></iframe></div>
   </div>
+
   </body>
 </html>

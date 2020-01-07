@@ -73,7 +73,9 @@ img {
 	float:left;
 	max-width:75%;
 }
-
+.center{
+	text-align:center;
+}
 .navbar {
   font-family: Montserrat;
   background-color: rgba(130, 100, 230, 0.8)!important;
