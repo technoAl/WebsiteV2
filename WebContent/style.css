@@ -8,8 +8,16 @@ body, html {
 	background-color:#17111f;
 
 }
+
 h1 {
 	color:rgba(130, 100, 230, 0.8);
+	font-size: 1.50em;
+	text-align:center;
+}
+
+h2 {
+	color:rgba(130, 100, 230, 0.4);
+	font-size:2.250em;
 	text-align:center;
 }
 
@@ -78,7 +86,7 @@ img {
 }
 .navbar {
   font-family: Montserrat;
-  background-color: #17111fe0;
+  background-color: #17111fa0;
   font-size: 20px!important;
 	text-decoration-color:black!important;
 	border:none;
@@ -91,21 +99,21 @@ img {
   color: #fff!important;
 }
 .navbar-nav li.active a {
-	background-color: #a1275280 !important ;
+	background-color: #a1275240 !important ;
   color: #fff!important;
 }
 .navbar-default .navbar-toggle {
   border-color: transparent;
 }
 .open .dropdown-toggle {
-  color: #fff;
-  background-color: #a1275280 !important;
+  color: #a1275240;
+  background-color: #a1275240 !important;
 }
 .dropdown-menu li a {
   color: #000 !important;
 }
 .dropdown-menu li a:hover {
-  background-color: #a1275280 !important;
+  background-color: #17111fa0;
 }
 /* heroimages written by Alex Sun with some help from https://www.w3schools.com/howto/howto_css_hero_image.asp*/
 .hero-image {
